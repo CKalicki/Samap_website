@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "RobotoSlab";
+  src: local("Roboto Slab"), local("RobotoSlab"), url("fonts/RobotoSlab-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab";
+  src: local("Roboto Slab"), local("RobotoSlab"), url("fonts/RobotoSlab-Bold.ttf");
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font: "Lato", sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li b {
+  float: left;
+  color: white;
+  text-align: center;
+  font: "RobotoSlab", serif;
+  adding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
